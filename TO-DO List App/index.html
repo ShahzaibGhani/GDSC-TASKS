@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="background">
+        <div class="title-container">
+            <h1>To-Do List <img src="./images/favicon.png" alt="list"> </h1>
+            <div class="input-row">
+                <input type="text" name="task" id="task" placeholder="Add a task">
+                <button onclick="addtask()" id="add-button">Add</button>
+            </div>
+        </div>
+        <div class="task-container">
+            <h2>Tasks</h2>
+            <div id="tasks">
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
